@@ -1,0 +1,128 @@
+@import "mixin";
+
+// /* Footer Section  */
+
+#footer{
+    
+    margin-top: 5em;
+    padding: 0em 0;
+  z-index:-10;
+    /* margin-left: -9px;
+    margin-right: -9px; */
+    @include respond(phone){
+        margin-top:3em;
+    } 
+}
+
+.foot-cont{
+    display: flex;
+    /* margin-left: 100px; */
+    /* margin-right: 100px; */
+    padding: 0px 15px;
+    margin-left: -9px;
+    margin-right: -9px;
+    background: #303030;
+    
+      font-family: 'PT Sans', sans-serif;
+    @include respond(phone){
+        position:relative;
+        padding: 0px 1px;  
+        margin-left: 0px;
+        margin-right:0px;  
+       
+    } 
+    &-foot1{
+        color: white;
+        /* border: 2px solid darkgrey; */
+        /* border-bottom: darkgrey; */
+        width: 40%;
+        margin-bottom:0rem;
+        margin: 3rem 20px;
+        text-align: center;
+        @include respond(phone){
+            padding: 1px 1px; 
+            // border:2px solid blue; 
+            margin: 1.5rem 7px;  
+        } 
+        &-heading{
+            /* border-bottom: darkgrey; */
+            &-text{
+                @include respond(phone){
+                  font-size:1rem;   
+                 font-weight:600;  
+                 //background-color:green;
+                }
+                font-weight:900;
+                font-size:2.4rem;
+            }
+           
+        }
+        &-para{
+            padding-top: .4rem;
+            font-size: 19px;
+            font-family: 'Open Sans', sans-serif;
+            @include respond(phone){
+                
+                font-size: 13px;  
+                 padding-top: 0rem; 
+                 padding-bottom:0rem;
+                 //background:red;
+            } 
+            &-link{
+                text-decoration: none;
+                &:hover{
+                    text-decoration: none; 
+                }
+                
+            }
+        }
+    }
+    .socialmedia{
+        @include respond(phone){
+           width:1rem;
+           height:1rem;
+        }
+    }
+    &-imgbox{
+        margin-top: 3rem;
+        @include respond(phone){
+           
+           margin-top: 0rem;
+        } 
+        &-image{
+            height: 10rem;
+            width: 10rem;
+            margin: 0px 12px;
+            box-shadow:2px 2px 15px rgb(0,0,0);
+            @include respond(phone){
+                margin: 40px 10px;
+               height: 4rem;
+               width: 4rem;
+               margin-bottom:30px;  
+
+            } 
+        }
+    }
+    
+}
+
+
+.footend{
+ 
+    background-color: black;
+    color: white;
+    text-align: center;
+   
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    @include respond(phone){
+        font-size: 16px;    
+    } 
+    &-copyright{
+        padding:.5rem;
+    }
+}
+.xyz:focus{
+ color:green;
+}
+

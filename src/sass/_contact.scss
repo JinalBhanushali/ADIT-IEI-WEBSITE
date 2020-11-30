@@ -1,0 +1,131 @@
+@import "mixin";
+$main-height:5.5rem;
+.socialmedia{
+    width:1.8rem;
+    height:1.4rem;
+}
+.contact-title{
+    &-heading{
+        font-weight:900;
+        font-size:2.7rem;
+        text-shadow: 2px 2px 5px rgba(0,0,0,.6);
+        color:rgba(43, 183, 247, 1);
+        text-align:center;
+        @include respond(phone){
+           font-size:2.2rem;   
+        }
+    }
+    margin-top:1.5rem;
+    margin-bottom:1.5rem;
+    text-align:center;
+    @include respond(phone){
+         margin-top:0rem;
+         margin-bottom:1rem;  
+    }
+    
+}
+.technology{
+    /* border: 2px solid red; */
+    margin: 0px 105px;
+     padding: 38px 23px;
+    background-color: white;
+    @include respond(phone){
+           margin: 0px 15px;
+         padding: 10px 10px;      
+    }
+    &-box{
+        display: flex;
+        width: 100%;
+        &-tech{
+             /* border: 2px solid red; */
+            margin: 2px 20px;
+            width: 40%;
+            padding: 3px 19px;
+            text-align: center;
+            border-bottom: 2px solid #d6cfcf;
+            @include respond(phone){
+                    padding: 3px 3px; 
+                    margin: 2px 2px; 
+                    box-shadow:2px 2px 10px rgba(0,0,0,.6);
+            }
+            &-heading{
+                font-family: 'Rubik', sans-serif;
+                color: #4ab7d0;
+                font-weight: 600;
+                margin: 7px;
+                @include respond(phone){
+                    font-size:1rem;      
+                }
+            }
+
+            &-para{
+                font-size: 19px;
+                color: #423c3c;
+                font-family: 'Open Sans', sans-serif;
+                @include respond(phone){
+                    font-size:.8rem; 
+                    padding-right:10px;
+                    padding-left:10px;   
+                }
+                &-link{
+                    text-decoration: none;
+                    color: #1ee6e6;
+                }
+            }
+        }
+    }
+}
+
+// /* Google Map  */
+
+.map{
+    // border:3px solid red;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 10%;
+    margin-right: 10%;
+    @include respond(phone){
+         margin-top: 15px;
+         margin-left: 0%;
+         margin-right: 0%;  
+         font-size:1px; 
+           margin-bottom: 0px;
+               
+    }
+   
+    &-box{
+        
+        padding: 3%;
+        /* border: 2px solid red; */
+        background-color: #ecd7d7;
+        box-shadow: 2px 8px 20px #9c9494;
+        &-mapouter{
+            display: block;
+            position: relative;
+            text-align: right;
+            height: 500px;
+            /* width: 600px; */
+            width: auto;
+            @include respond(phone){
+                height:22rem;      
+            } 
+            &-canvas {
+                border-radius:10px !important;
+                overflow: hidden;
+                background: none !important;
+                height: 500px;
+                /* width: 185%; */
+                width: auto;
+                @include respond(phone){
+                    height:22rem;      
+                }               
+            }
+        }
+    }
+}
+.foot_div {
+    width: 1106px;
+    padding: 56px 0 0;
+    margin: 0 auto;
+}
+
