@@ -26,8 +26,17 @@ function Main() {
   }
   const handleClick = ()=>  setClick(!click);
   const closeClick = ()=>  setClick(false);
+  const dropdownClick = () => {
+    if(window.innerWidth < 767.98){
+      setDropdown(false);
+      setPhoneDropdown(false);
+    }else{
+      setDropdown(true);
+      setPhoneDropdown(false);
+    }
+  }
   const onMouseEnter = () => {
-    if(window.innerWidth < 1200){
+    if(window.innerWidth < 767.98){
       setDropdown(false);
       setPhoneDropdown(false);
     }else{
@@ -36,7 +45,7 @@ function Main() {
     }
   };
   const onMouseLeave = () => {
-    if(window.innerWidth < 1200){
+    if(window.innerWidth < 767.98){
       setDropdown(false);
     }else{
       setDropdown(false);
@@ -49,8 +58,8 @@ function Main() {
   
   return <div className="main">
 
-      <div className="">
-      <nav className="navbar navbar-expand-xl navbars">
+      <div className="navbarset">
+      <nav className="navbar navbar-expand-md navbars">
         <div onClick={handleClick} className="menu-icon">
           <i className={click ? 'fa fa-times' : 'fa fa-bars'}></i>
         </div>
@@ -62,8 +71,9 @@ function Main() {
           <li className="nav-item  nav-items"
               onMouseEnter={onMouseEnter}
               onMouseLeave={onMouseLeave}
+              onClick={dropdownClick}
           >
-            <Link to="/ADIT-IEI-WEBSITE/event/presentEvent" onClick={window.innerWidth > 1200 ? closeClick : phonedropdownOpen} className="nav-link nav-links" for="si"> 
+            <Link to="/ADIT-IEI-WEBSITE/event/presentEvent" onClick={window.innerWidth > 767.98 ? closeClick : phonedropdownOpen} className="nav-link nav-links" for="si"> 
                Event &nbsp;
                <i className="fa fa-caret-down"></i>
             </Link>
