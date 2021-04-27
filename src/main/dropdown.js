@@ -43,17 +43,17 @@ function Dropdown() {
 const MenuItems = [
     {
         title : 'UpcomingEvent',
-        path : '/event/upcomingEvent',
+        path : '/ADIT-IEI-WEBSITE/event/upcomingEvent',
         cName : 'dropdown-link'
     },
     {
         title : 'PresentEvent',
-        path : '/event/presentEvent',
+        path : '/ADIT-IEI-WEBSITE/event/presentEvent',
         cName : 'dropdown-link'
     },
     {
         title : 'PastEvent',
-        path : '/event/pastEvent',
+        path : '/ADIT-IEI-WEBSITE/event/pastEvent',
         cName : 'dropdown-link'
     }
 ]
