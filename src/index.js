@@ -134,17 +134,17 @@ function Main() {
 const PhoneMenuItems = [
     {
         title : 'Upcoming Event',
-        path : '/event/upcomingEvent',
+        path : '/ADIT-IEI-WEBSITE/event/upcomingEvent',
         cName : 'Phonedropdown-li-link'
     },
     {
         title : 'Present Event',
-        path : '/event/presentEvent',
+        path : '/ADIT-IEI-WEBSITE/event/presentEvent',
         cName : 'Phonedropdown-li-link'
     },
     {
         title : 'Past Event',
-        path : '/event/pastEvent',
+        path : '/ADIT-IEI-WEBSITE/event/pastEvent',
         cName : 'Phonedropdown-li-link'
     }
 ]
