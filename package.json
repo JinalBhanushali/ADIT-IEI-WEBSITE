@@ -2,7 +2,7 @@
   "name": "iei",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/JinalBhanushali/ADIT-IEI.git",
+  "homepage": "https://github.com/JinalBhanushali/ADIT-IEI-WEBSITE.git",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.1",
     "@testing-library/jest-dom": "^4.2.4",
