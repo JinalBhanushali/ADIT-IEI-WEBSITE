@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/ADIT-IEI-WEBSITE/static/css/main.19bf4666.chunk.css",
-    "main.js": "/ADIT-IEI-WEBSITE/static/js/main.f3f6697d.chunk.js",
-    "main.js.map": "/ADIT-IEI-WEBSITE/static/js/main.f3f6697d.chunk.js.map",
-    "runtime-main.js": "/ADIT-IEI-WEBSITE/static/js/runtime-main.837dd80d.js",
-    "runtime-main.js.map": "/ADIT-IEI-WEBSITE/static/js/runtime-main.837dd80d.js.map",
-    "static/js/2.f8bc5ccf.chunk.js": "/ADIT-IEI-WEBSITE/static/js/2.f8bc5ccf.chunk.js",
-    "static/js/2.f8bc5ccf.chunk.js.map": "/ADIT-IEI-WEBSITE/static/js/2.f8bc5ccf.chunk.js.map",
-    "index.html": "/ADIT-IEI-WEBSITE/index.html",
-    "precache-manifest.ba802c576be383f0b3f9c7cb641fc7da.js": "/ADIT-IEI-WEBSITE/precache-manifest.ba802c576be383f0b3f9c7cb641fc7da.js",
-    "service-worker.js": "/ADIT-IEI-WEBSITE/service-worker.js",
-    "static/css/main.19bf4666.chunk.css.map": "/ADIT-IEI-WEBSITE/static/css/main.19bf4666.chunk.css.map",
-    "static/js/2.f8bc5ccf.chunk.js.LICENSE.txt": "/ADIT-IEI-WEBSITE/static/js/2.f8bc5ccf.chunk.js.LICENSE.txt",
-    "static/media/event2.jpg": "/ADIT-IEI-WEBSITE/static/media/event2.b10969c6.jpg",
-    "static/media/happy.gif": "/ADIT-IEI-WEBSITE/static/media/happy.70f976fa.gif",
-    "static/media/iei_logo.png": "/ADIT-IEI-WEBSITE/static/media/iei_logo.ce672444.png",
-    "static/media/join.gif": "/ADIT-IEI-WEBSITE/static/media/join.e0ea88c5.gif"
+    "main.css": "/JinalBhanushali/ADIT-IEI-WEBSITE.git/static/css/main.19bf4666.chunk.css",
+    "main.js": "/JinalBhanushali/ADIT-IEI-WEBSITE.git/static/js/main.4facded7.chunk.js",
+    "main.js.map": "/JinalBhanushali/ADIT-IEI-WEBSITE.git/static/js/main.4facded7.chunk.js.map",
+    "runtime-main.js": "/JinalBhanushali/ADIT-IEI-WEBSITE.git/static/js/runtime-main.9eaa9585.js",
+    "runtime-main.js.map": "/JinalBhanushali/ADIT-IEI-WEBSITE.git/static/js/runtime-main.9eaa9585.js.map",
+    "static/js/2.c4287655.chunk.js": "/JinalBhanushali/ADIT-IEI-WEBSITE.git/static/js/2.c4287655.chunk.js",
+    "static/js/2.c4287655.chunk.js.map": "/JinalBhanushali/ADIT-IEI-WEBSITE.git/static/js/2.c4287655.chunk.js.map",
+    "index.html": "/JinalBhanushali/ADIT-IEI-WEBSITE.git/index.html",
+    "precache-manifest.977d34c4173218c9e4016a9acd04764e.js": "/JinalBhanushali/ADIT-IEI-WEBSITE.git/precache-manifest.977d34c4173218c9e4016a9acd04764e.js",
+    "service-worker.js": "/JinalBhanushali/ADIT-IEI-WEBSITE.git/service-worker.js",
+    "static/css/main.19bf4666.chunk.css.map": "/JinalBhanushali/ADIT-IEI-WEBSITE.git/static/css/main.19bf4666.chunk.css.map",
+    "static/js/2.c4287655.chunk.js.LICENSE.txt": "/JinalBhanushali/ADIT-IEI-WEBSITE.git/static/js/2.c4287655.chunk.js.LICENSE.txt",
+    "static/media/event2.jpg": "/JinalBhanushali/ADIT-IEI-WEBSITE.git/static/media/event2.b10969c6.jpg",
+    "static/media/happy.gif": "/JinalBhanushali/ADIT-IEI-WEBSITE.git/static/media/happy.70f976fa.gif",
+    "static/media/iei_logo.png": "/JinalBhanushali/ADIT-IEI-WEBSITE.git/static/media/iei_logo.ce672444.png",
+    "static/media/join.gif": "/JinalBhanushali/ADIT-IEI-WEBSITE.git/static/media/join.e0ea88c5.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.837dd80d.js",
-    "static/js/2.f8bc5ccf.chunk.js",
+    "static/js/runtime-main.9eaa9585.js",
+    "static/js/2.c4287655.chunk.js",
     "static/css/main.19bf4666.chunk.css",
-    "static/js/main.f3f6697d.chunk.js"
+    "static/js/main.4facded7.chunk.js"
   ]
 }
