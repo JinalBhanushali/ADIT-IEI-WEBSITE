@@ -64,17 +64,17 @@ function Main() {
         <div onClick={handleClick} className="menu-icon">
           <i className={click ? 'fa fa-times' : 'fa fa-bars'}></i>
         </div>
-        <Link to="/ADIT-IEI-WEBSITE" onClick={closeClick} className="nav-link"><img src={logo} alt="logo" className="navbar-logo d-inline-block"/></Link>
+        <Link to="ADIT-IEI" onClick={closeClick} className="nav-link"><img src={logo} alt="logo" className="navbar-logo d-inline-block"/></Link>
         <ul className={click ? 'nav-menus active navbar-nav mr-auto container' : 'nav-menus navbar-nav mr-auto container'}>
           <li className="nav-item active nav-items menu-top">
-            <Link to="/ADIT-IEI-WEBSITE" onClick={closeClick} className="nav-link nav-links text-light">Home</Link>
+            <Link to="ADIT-IEI" onClick={closeClick} className="nav-link nav-links text-light">Home</Link>
           </li>
           <li className="nav-item  nav-items"
               onMouseEnter={onMouseEnter}
               onMouseLeave={onMouseLeave}
               onClick={dropdownClick}
           >
-            <Link to="/ADIT-IEI-WEBSITE/event/presentEvent" onClick={window.innerWidth > 767.98 ? closeClick : clickedevent} className="nav-link nav-links text-light" > 
+            <Link to="/ADIT-IEI/event/presentEvent" onClick={window.innerWidth > 767.98 ? closeClick : clickedevent} className="nav-link nav-links text-light" > 
                Event &nbsp;
                <i className={phoneDropDown || dropdown ? "fa fa-caret-up" : "fa fa-caret-down"}></i>
             </Link>
@@ -105,16 +105,16 @@ function Main() {
                
           )}
           <li className="nav-item nav-items">
-            <Link to="/ADIT-IEI-WEBSITE/gallery" onClick={closeClick} className="nav-link nav-links  text-light">Gallery</Link>
+            <Link to="/ADIT-IEI/gallery" onClick={closeClick} className="nav-link nav-links  text-light">Gallery</Link>
           </li>
           <li className="nav-item nav-items">
-            <Link to="/ADIT-IEI-WEBSITE/ieiMembership" onClick={closeClick} className="nav-link nav-links text-light">Member</Link>
+            <Link to="/ADIT-IEI/ieiMembership" onClick={closeClick} className="nav-link nav-links text-light">Member</Link>
           </li>
            <li className="nav-item nav-items">
-            <Link to="/ADIT-IEI-WEBSITE/history" onClick={closeClick} className="nav-link nav-links text-light">about us</Link>
+            <Link to="/ADIT-IEI/history" onClick={closeClick} className="nav-link nav-links text-light">about us</Link>
           </li>
           <li className="nav-item nav-items menu-bottom">
-            <Link to="/ADIT-IEI-WEBSITE/contact" onClick={closeClick} className="nav-link nav-links text-light">Contact</Link>
+            <Link to="/ADIT-IEI/contact" onClick={closeClick} className="nav-link nav-links text-light">Contact</Link>
           </li>
         </ul>
       </nav>
@@ -129,14 +129,14 @@ function Main() {
   <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
 </div> */}
       <Switch>
-        <Route exact path="/ADIT-IEI-WEBSITE" component={Home}></Route>
-        <Route path="/ADIT-IEI-WEBSITE/event/presentEvent" component={presentEvent}></Route>
-        <Route path="/ADIT-IEI-WEBSITE/event/pastEvent" component={pastEvent}></Route>
-        <Route path="/ADIT-IEI-WEBSITE/event/upcomingEvent" component={futureEvent}></Route>
-        <Route path="/ADIT-IEI-WEBSITE/gallery" component={Gallery}></Route>
-        <Route path="/ADIT-IEI-WEBSITE/ieiMembership" component={IEIMembership}></Route>
-        <Route path="/ADIT-IEI-WEBSITE/history" component={History}></Route>
-        <Route path="/ADIT-IEI-WEBSITE/contact" component={Contect}></Route>
+        <Route exact path="ADIT-IEI" component={Home}></Route>
+        <Route path="/ADIT-IEI/event/presentEvent" component={presentEvent}></Route>
+        <Route path="/ADIT-IEI/event/pastEvent" component={pastEvent}></Route>
+        <Route path="/ADIT-IEI/event/upcomingEvent" component={futureEvent}></Route>
+        <Route path="/ADIT-IEI/gallery" component={Gallery}></Route>
+        <Route path="/ADIT-IEI/ieiMembership" component={IEIMembership}></Route>
+        <Route path="/ADIT-IEI/history" component={History}></Route>
+        <Route path="/ADIT-IEI/contact" component={Contect}></Route>
         <Route component={NotFound}></Route>
       </Switch>
     </div>
@@ -144,17 +144,17 @@ function Main() {
 const PhoneMenuItems = [
     {
         title : 'Upcoming Event',
-        path : '/ADIT-IEI-WEBSITE/event/upcomingEvent',
+        path : '/ADIT-IEI/event/upcomingEvent',
         cName : 'Phonedropdown-li-link'
     },
     {
         title : 'Present Event',
-        path : '/ADIT-IEI-WEBSITE/event/presentEvent',
+        path : '/ADIT-IEI/event/presentEvent',
         cName : 'Phonedropdown-li-link'
     },
     {
         title : 'Past Event',
-        path : '/ADIT-IEI-WEBSITE/event/pastEvent',
+        path : '/ADIT-IEI/event/pastEvent',
         cName : 'Phonedropdown-li-link'
     }
 ]
