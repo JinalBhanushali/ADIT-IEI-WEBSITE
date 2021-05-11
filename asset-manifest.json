@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/ADIT-IEI-WEBSITE/static/css/main.5114291e.chunk.css",
-    "main.js": "/ADIT-IEI-WEBSITE/static/js/main.c992ef06.chunk.js",
-    "main.js.map": "/ADIT-IEI-WEBSITE/static/js/main.c992ef06.chunk.js.map",
+    "main.css": "/ADIT-IEI-WEBSITE/static/css/main.19bf4666.chunk.css",
+    "main.js": "/ADIT-IEI-WEBSITE/static/js/main.f3f6697d.chunk.js",
+    "main.js.map": "/ADIT-IEI-WEBSITE/static/js/main.f3f6697d.chunk.js.map",
     "runtime-main.js": "/ADIT-IEI-WEBSITE/static/js/runtime-main.837dd80d.js",
     "runtime-main.js.map": "/ADIT-IEI-WEBSITE/static/js/runtime-main.837dd80d.js.map",
-    "static/js/2.5bb4bfc7.chunk.js": "/ADIT-IEI-WEBSITE/static/js/2.5bb4bfc7.chunk.js",
-    "static/js/2.5bb4bfc7.chunk.js.map": "/ADIT-IEI-WEBSITE/static/js/2.5bb4bfc7.chunk.js.map",
+    "static/js/2.f8bc5ccf.chunk.js": "/ADIT-IEI-WEBSITE/static/js/2.f8bc5ccf.chunk.js",
+    "static/js/2.f8bc5ccf.chunk.js.map": "/ADIT-IEI-WEBSITE/static/js/2.f8bc5ccf.chunk.js.map",
     "index.html": "/ADIT-IEI-WEBSITE/index.html",
-    "precache-manifest.f06f0441521a1c1bd556b92fe3c64a74.js": "/ADIT-IEI-WEBSITE/precache-manifest.f06f0441521a1c1bd556b92fe3c64a74.js",
+    "precache-manifest.ba802c576be383f0b3f9c7cb641fc7da.js": "/ADIT-IEI-WEBSITE/precache-manifest.ba802c576be383f0b3f9c7cb641fc7da.js",
     "service-worker.js": "/ADIT-IEI-WEBSITE/service-worker.js",
-    "static/css/main.5114291e.chunk.css.map": "/ADIT-IEI-WEBSITE/static/css/main.5114291e.chunk.css.map",
-    "static/js/2.5bb4bfc7.chunk.js.LICENSE.txt": "/ADIT-IEI-WEBSITE/static/js/2.5bb4bfc7.chunk.js.LICENSE.txt",
+    "static/css/main.19bf4666.chunk.css.map": "/ADIT-IEI-WEBSITE/static/css/main.19bf4666.chunk.css.map",
+    "static/js/2.f8bc5ccf.chunk.js.LICENSE.txt": "/ADIT-IEI-WEBSITE/static/js/2.f8bc5ccf.chunk.js.LICENSE.txt",
     "static/media/event2.jpg": "/ADIT-IEI-WEBSITE/static/media/event2.b10969c6.jpg",
     "static/media/happy.gif": "/ADIT-IEI-WEBSITE/static/media/happy.70f976fa.gif",
     "static/media/iei_logo.png": "/ADIT-IEI-WEBSITE/static/media/iei_logo.ce672444.png",
@@ -19,8 +19,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.837dd80d.js",
-    "static/js/2.5bb4bfc7.chunk.js",
-    "static/css/main.5114291e.chunk.css",
-    "static/js/main.c992ef06.chunk.js"
+    "static/js/2.f8bc5ccf.chunk.js",
+    "static/css/main.19bf4666.chunk.css",
+    "static/js/main.f3f6697d.chunk.js"
   ]
 }

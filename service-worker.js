@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ADIT-IEI-WEBSITE/precache-manifest.f06f0441521a1c1bd556b92fe3c64a74.js"
+  "/ADIT-IEI-WEBSITE/precache-manifest.ba802c576be383f0b3f9c7cb641fc7da.js"
 );
 
 self.addEventListener('message', (event) => {
