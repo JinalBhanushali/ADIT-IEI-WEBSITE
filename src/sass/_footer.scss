@@ -15,6 +15,7 @@
 }
 
 .foot-cont{
+    width: 100%;
     display: flex;
     /* margin-left: 100px; */
     /* margin-right: 100px; */
@@ -124,5 +125,203 @@
 }
 .xyz:focus{
  color:green;
+}
+
+
+.s_stk {
+    z-index: 99;
+}
+.s_stk {
+    background: #f1f1f1;
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    border: 0;
+}
+.ss-ic, .sp-athr, .amp-tags, .post-date {
+    padding-bottom: 20px;
+    border-bottom: 1px dotted #ccc;
+}
+// html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+//     margin: 0;
+//     padding: 0;
+//     border: 0;
+//     outline: 0;
+//     font-size: 100%;
+//     vertical-align: baseline;
+//     background: transparent;
+// }
+// *, *:after, *:before {
+//     box-sizing: border-box;
+//     -ms-box-sizing: border-box;
+//     -o-box-sizing: border-box;
+// }
+user agent stylesheet
+div {
+    display: block;
+}
+Style Attribute {
+    opacity: 1;
+    visibility: visible;
+    animation: 0s ease 0s 1 normal none running none;
+}
+
+.s_stk ul {
+    width: 100%;
+    display: inline-flex;
+}
+
+p, ol, ul, figure {
+    margin: 0 0 1em;
+    padding: 0;
+}
+ol, ul {
+    list-style-position: inside;
+}
+*, *:after, *:before {
+    box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+user agent stylesheet
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.s_stk {
+    background: #f1f1f1;
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    border: 0;
+}
+
+
+
+.s_stk ul li {
+    flex-direction: column;
+    flex-basis: 0;
+    flex: 1 0 5%;
+    max-width: calc(100% - 10px);
+    display: flex;
+    height: 40px;
+}
+.ss-ic ul li {
+    font-family: "icomoon";
+    list-style-type: none;
+    display: inline-block;
+}
+
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+ol, ul {
+    list-style-position: inside;
+}
+user agent stylesheet
+ul {
+    list-style-type: disc;
+}
+.s_stk {
+    background: #f1f1f1;
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    border: 0;
+}
+Style Attribute {
+    opacity: 1;
+    visibility: visible;
+    animation: 0s ease 0s 1 normal none running none;
+}
+
+.ss-ic li:before {
+    border-radius: 2px;
+    text-align: center;
+    padding: 4px 6px;
+}
+
+.ss-ic ul li .s_fb {
+    color: #fff;
+    background: #3b5998;
+}
+.s_stk li a {
+    margin: 0;
+    border-radius: 0;
+    padding: 12px;
+}
+.ss-ic li a {
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+    margin: 0px 10px 10px 0px;
+    display: inline-block;
+}
+a, a:active, a:visited {
+    text-decoration: none;
+    color: #005be2;
+}
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.ss-ic ul li {
+    font-family: "icomoon";
+    list-style-type: none;
+    display: inline-block;
+}
+
+user agent stylesheet
+li {
+    text-align: -webkit-match-parent;
+}
+ol, ul {
+    list-style-position: inside;
+}
+user agent stylesheet
+ul {
+    list-style-type: disc;
+}
+.s_stk {
+    background: #f1f1f1;
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    border: 0;
+}
+.s_fb:after {
+    content: "\e92d";
+}
+.s_rd {
+    background: #ff4500;
 }
 

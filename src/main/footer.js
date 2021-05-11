@@ -50,7 +50,41 @@ function Footer(){
                     © 2020 IEI SB ADIT. All rights reserved | Design by IEI SB, ADIT
                 </p>
             </div>
+            <div class="icon-bar">
+            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+            <a href="#" class="google"><i class="fa fa-google"></i></a>
+            <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
+            </div> 
+            {/* <div class="s_stk ss-ic"> 
+              <ul> 
+                <li> <a title="facebook share" class="s_fb" target="_blank" href=""></a> </li> 
+                <li> <a title="twitter share" class="s_tw" target="_blank" href=""> </a> </li>
+                <li> <a title="whatsapp share" class="s_wp" target="_blank" href="https://api.whatsapp.com/send?text=https://www.buddy4study.com/article/gujarat-scholarship" data-action="share/whatsapp/share"></a> </li>
+                <li> <a title="reddit share" class="s_rd" target="_blank" href="https://reddit.com/submit?url=https://www.buddy4study.com/article/gujarat-scholarship&amp;title=Digital Gujarat Scholarship 2020 – Last Date, Gujarat Scholarship Portal, Eligibility"></a> </li>
+                <li> <a title="tumblr share" class="s_tb" target="_blank" href="https://www.tumblr.com/widgets/share/tool?canonicalUrl=https://www.buddy4study.com/article/gujarat-scholarship"></a> </li> 
+                <li> <a title="telegram share" class="s_tg" target="_blank" href="https://telegram.me/share/url?url=https://www.buddy4study.com/article/gujarat-scholarship&amp;text=Digital Gujarat Scholarship 2020 – Last Date, Gujarat Scholarship Portal, Eligibility"></a> </li>
+             </ul> 
+            </div> */}
         </footer>
+{/* <div>
+    <a class="btn-floating btn-lg btn-fb" type="button" role="button"><i class="fab fa-facebook-f"></i></a>
+    <a class="btn-floating btn-lg btn-tw" type="button" role="button"><i class="fab fa-twitter"></i></a>
+    <a class="btn-floating btn-lg btn-li" type="button" role="button"><i class="fab fa-linkedin-in"></i></a>
+    <a class="btn-floating btn-lg btn-ins" type="button" role="button"><i class="fab fa-instagram"></i></a>
+    <a class="btn-floating btn-lg btn-yt" type="button" role="button"><i class="fab fa-youtube"></i></a>
+    <a class="btn-floating btn-lg btn-email" type="button" role="button"><i class="fas fa-envelope"></i></a>
+</div> */}
+    
+
+        {/* <div class="icon-bar icon-bar-footer">
+            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
+            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
+            <a href="#" class="google"><i class="fa fa-google"></i></a> 
+            <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
+        </div> */}
     </div>;
 }
 export default Footer;

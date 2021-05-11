@@ -2,6 +2,7 @@
   "name": "iei",
   "version": "0.1.0",
   "private": true,
+  "homepage": "  https://adit-student-chepter-of-iei.github.io/ADIT-IEI-WEBSITE/",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.1",
     "@testing-library/jest-dom": "^4.2.4",
@@ -18,7 +19,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-"deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
