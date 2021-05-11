@@ -67,7 +67,7 @@ function Main() {
         <Link to="/ADIT-IEI-WEBSITE" onClick={closeClick} className="nav-link"><img src={logo} alt="logo" className="navbar-logo d-inline-block"/></Link>
         <ul className={click ? 'nav-menus active navbar-nav mr-auto container' : 'nav-menus navbar-nav mr-auto container'}>
           <li className="nav-item active nav-items menu-top">
-            <Link to="/ADIT-IEI-WEBSITE" onClick={closeClick} className="nav-link nav-links text-light">Home</Link>
+            <Link to="/" onClick={closeClick} className="nav-link nav-links text-light">Home</Link>
           </li>
           <li className="nav-item  nav-items"
               onMouseEnter={onMouseEnter}
@@ -129,7 +129,7 @@ function Main() {
   <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
 </div> */}
       <Switch>
-        <Route exact path="/ADIT-IEI-WEBSITE" component={Home}></Route>
+        <Route exact path="/" component={Home}></Route>
         <Route path="/ADIT-IEI-WEBSITE/event/presentEvent" component={presentEvent}></Route>
         <Route path="/ADIT-IEI-WEBSITE/event/pastEvent" component={pastEvent}></Route>
         <Route path="/ADIT-IEI-WEBSITE/event/upcomingEvent" component={futureEvent}></Route>
