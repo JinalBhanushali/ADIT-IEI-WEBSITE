@@ -114,7 +114,7 @@ function Main() {
             <Link to="/ADIT-IEI-WEBSITE/history" onClick={closeClick} className="nav-link nav-links text-light">about us</Link>
           </li>
           <li className="nav-item nav-items menu-bottom">
-            <Link to="/ADIT-IEI-WEBSITE/contact" onClick={closeClick} className="nav-link nav-links text-light">Contact us</Link>
+            <Link to="/ADIT-IEI-WEBSITE/contact" onClick={closeClick} className="nav-link nav-links text-light">Contact</Link>
           </li>
         </ul>
       </nav>

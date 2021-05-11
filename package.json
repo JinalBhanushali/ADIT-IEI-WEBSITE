@@ -2,7 +2,7 @@
   "name": "iei",
   "version": "0.1.0",
   "private": true,
-  "homepage": "  https://adit-student-chepter-of-iei.github.io/ADIT-IEI-WEBSITE/",
+  "homepage": "https://github.com/JinalBhanushali/ADIT-IEI-WEBSITE.git",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.1",
     "@testing-library/jest-dom": "^4.2.4",
@@ -51,5 +51,12 @@
     "tether": "^1.4.7"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JinalBhanushali/ADIT-IEI-WEBSITE.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JinalBhanushali/ADIT-IEI-WEBSITE/issues"
+  }
 }
