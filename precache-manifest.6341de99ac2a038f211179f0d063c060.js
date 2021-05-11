@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a0ab500bf3cda9808b274ae9ff1ad478",
+    "revision": "5380c3756b4df3f9fc0fb0f794ca6038",
     "url": "/JinalBhanushali/ADIT-IEI-WEBSITE.git/index.html"
   },
   {
-    "revision": "04250043a7064b6c4be4",
+    "revision": "b53123df0e4b1046c7a1",
     "url": "/JinalBhanushali/ADIT-IEI-WEBSITE.git/static/css/main.19bf4666.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/JinalBhanushali/ADIT-IEI-WEBSITE.git/static/js/2.c4287655.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "04250043a7064b6c4be4",
-    "url": "/JinalBhanushali/ADIT-IEI-WEBSITE.git/static/js/main.4facded7.chunk.js"
+    "revision": "b53123df0e4b1046c7a1",
+    "url": "/JinalBhanushali/ADIT-IEI-WEBSITE.git/static/js/main.b5fce76e.chunk.js"
   },
   {
     "revision": "210b6169ac3f26f6850b",
